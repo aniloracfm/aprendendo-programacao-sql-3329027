@@ -1,5 +1,7 @@
 -- Atualize a classe salarial para a pessoa cujo EmployeeId é igual a 6. Lembre-se que a classe salarial deve corresponder o id_salario da tabela salario_classe
-
+UPDATE employees
+SET id_salario = 4
+WHERE EmployeeId = 6;
 
 -- Atualize a classe salarial e o LastName da pessoa cujo EmployeeId é igual a 2. Lembre-se que a classe salarial deve corresponder o id_salario da tabela salario_classe
 
